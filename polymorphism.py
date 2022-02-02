@@ -22,7 +22,7 @@ class Teacher(User):
     def login(self):
         name = input("Enter your name: ")
         id = input("Enter your Faculty ID: ")
-        if(id = self.facultyID):
+        if(id == self.facultyID):
             print("Hello, {}.".format(self.name))
         else:
             print("Incorrect Faculty ID")
@@ -36,7 +36,7 @@ class Student(User):
     def login(self):
         name = input("Enter your name: ")
         id = input("Enter your Student ID: ")
-        if(id = self.facultyID):
+        if(id == self.facultyID):
             print("Hello, {}.".format(self.name))
         else:
             print("Incorrect Student ID")
